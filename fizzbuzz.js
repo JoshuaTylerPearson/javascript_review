@@ -9,7 +9,7 @@
     function fizzBuzz(current, end) {
         /*
         returns a string of numbers from 'current' to 'end'
-        with every multiple of 3 repaced with "Fizz"
+        with every multiple of 3 replaced with "Fizz"
         and every multiple of 5 replaced by "Buzz"
         and multiples of both replaced with "FizzBuzz"
         */
@@ -24,7 +24,6 @@
             if ((current % 5) === 0) {
                 line += "Buzz";
             }
-
 
             if (line === "") {
                 line = current;
